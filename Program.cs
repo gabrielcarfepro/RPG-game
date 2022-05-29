@@ -11,6 +11,7 @@ namespace jogoRPG
             Wizard wizard = new Wizard("Jennica", 23, "Wizard");
 
             Console.WriteLine(wizard.Attack());
+            Console.WriteLine(hero.Attack());
         }
     }
 }
