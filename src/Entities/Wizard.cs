@@ -2,9 +2,6 @@ namespace jogoRPG.src.Entities
 {
     public class Wizard : Hero
     {
-        string name;
-        int level;
-        string heroType;
 
         public Wizard(string name, int level, string heroType)
         {
