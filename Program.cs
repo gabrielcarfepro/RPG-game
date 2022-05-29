@@ -7,11 +7,12 @@ namespace jogoRPG
     {
         static void Main(string[] args)
         {
-            Hero hero = new Hero("Arus", 23, "Knight");
-            Wizard wizard = new Wizard("Jennica", 23, "Wizard");
+            Knight hero = new Knight("Arus", 23, "Knight", 100.0);
+            Wizard wizard = new Wizard("Jenica", 23, "Wizard", 100.0);
 
-            Console.WriteLine(wizard.Attack());
-            Console.WriteLine(hero.Attack());
+            Console.WriteLine(wizard.Attack("Arus", 10.0));
+            Console.WriteLine(wizard.Attack(10));
+            Console.WriteLine(hero.Attack("Jenica", 8.3));
         }
     }
 }
